@@ -45,7 +45,9 @@ width: 30%;
 }
 
 .aboutbackgroundimage {
-  background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/twaharpiesrange_2018_lrg.jpeg");
+  background-image: url("https://images.unsplash.com/photo-1437502920657-db9708bfe2ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80");
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 /* Creates top bar navigation, inline styling. To be improved! SH */
 ul.topnav {
@@ -65,6 +67,11 @@ li.topnav {
      padding: 10px 80px 10px 80px;
    }
 /* End of SH edit 18.11.19 */
+
+
+
+body{margin: 0px;
+}
 
 .subpage .topnav {
   color: black;
