@@ -17,3 +17,7 @@
   width: 100%;
   padding: 20px;
 }
+
+.aboutbackgroundimage {
+  background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/twaharpiesrange_2018_lrg.jpeg");
+}
