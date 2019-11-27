@@ -1,9 +1,15 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   position: fixed;
   right: 0;
   bottom: 0;
+  width: 100vw;
   height: 100vh;
+  object-fit: cover;
   z-index: -2;
 }
 
@@ -28,7 +34,7 @@
 }
 
 .logo {
-width: 45%;
+width: 30%;
 
 }
 
@@ -43,12 +49,16 @@ ul.topnav {
   padding: 10px 0px 10px 0px;
   align-items: baseline;
   text-align: center;
-  color: #7f8ea3;
+
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
 }
 
 li.topnav {
      display: inline;
      padding: 10px 80px 10px 80px;
-     font-family: sans-serif;
    }
 /* End of SH edit 18.11.19 */
