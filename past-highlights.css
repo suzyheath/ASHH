@@ -1,0 +1,13 @@
+.mainmediabody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch
+}
+
+.media {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+}
