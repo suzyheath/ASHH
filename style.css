@@ -65,3 +65,7 @@ li.topnav {
      padding: 10px 80px 10px 80px;
    }
 /* End of SH edit 18.11.19 */
+
+.subpage .topnav {
+  color: black;
+}
