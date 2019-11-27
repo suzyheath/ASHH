@@ -17,3 +17,18 @@
   width: 100%;
   padding: 20px;
 }
+
+/* Creates top bar navigation, inline styling. To be improved! SH */
+ul.topnav {
+  padding: 10px 0px 10px 0px;
+  align-items: baseline;
+  text-align: center;
+  color: #7f8ea3;
+}
+
+li.topnav {
+     display: inline;
+     padding: 10px 80px 10px 80px;
+     font-family: sans-serif;
+   }
+/* End of SH edit 18.11.19 */
