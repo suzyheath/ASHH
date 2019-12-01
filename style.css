@@ -12,6 +12,12 @@ h3 {
 
 p {
   font-weight: lighter;
+  font-size: 16px;
+}
+
+p.subtext {
+  font-size: 14px;
+
 }
 
 /* Style the video: 100% width and height to cover the entire window */
