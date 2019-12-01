@@ -73,6 +73,29 @@ li.topnav {
 body{margin: 0px;
 }
 
-.subpage .topnav {
-  color: black;
+/*Top bar nav but in black - Hannah 1.12.19*/
+ul.topnavblack {
+  padding: 10px 0px 10px 0px;
+  align-items: baseline;
+  text-align: center;
+
 }
+
+.topnavblack a {
+  color: black;
+  text-decoration: none;
+}
+
+li.topnavblack {
+     display: inline;
+     margin: 10px 80px 10px 80px;
+   }
+
+ul.topnavblack:hover {
+    background-color: lightgrey;
+  }
+
+.topnavblack a:hover {
+  color: white;
+}
+   /*end HT*/

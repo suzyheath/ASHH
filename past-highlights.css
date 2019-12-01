@@ -46,5 +46,5 @@ hr {
     margin-inline-end: 30px;
     overflow: hidden;
     border-style: inset;
-    border-width: 1px;
+    border-width: .8px;
 }
