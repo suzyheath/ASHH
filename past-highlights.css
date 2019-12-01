@@ -7,9 +7,10 @@
 }
 
 .media {
-    width: 400px;
+    width: 350px;
     height: auto;
     padding: 30px;
+    align-items: stretch;
 }
 
 .logo {
@@ -22,7 +23,7 @@
 }
 
 .logo img {
-    width: 150px;
+    width: 200px;
     height: auto;
     padding-top: 20px;
     padding-right: 20px;
@@ -46,5 +47,12 @@ hr {
     margin-inline-end: 30px;
     overflow: hidden;
     border-style: inset;
-    border-width: .8px;
+    border-width: .5px;
+}
+
+.wrapper {
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 150px;
 }

@@ -2,6 +2,18 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+h1 {
+  font-size: 20pt;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  font-weight: lighter;
+}
+
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   position: fixed;
@@ -84,6 +96,7 @@ ul.topnavblack {
 .topnavblack a {
   color: black;
   text-decoration: none;
+  font-weight: lighter;
 }
 
 li.topnavblack {
@@ -99,5 +112,6 @@ ul.topnavblack:hover {
 
 .topnavblack a:hover {
   color: white;
+  font-weight: lighter;
 }
    /*end HT*/
