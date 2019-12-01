@@ -93,6 +93,8 @@ li.topnavblack {
 
 ul.topnavblack:hover {
     background-color: lightgrey;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
   }
 
 .topnavblack a:hover {
