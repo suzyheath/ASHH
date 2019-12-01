@@ -16,24 +16,6 @@
     padding-left: 30px;
 }
 
-.logo {
-    width: 200px;
-    height: auto;
-    padding-top: 0px;
-    padding-right: 20px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-}
-
-.logo img {
-    width: 200px;
-    height: auto;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
-
 .titlebox {
     padding-top: 10px;
     padding-right: 30px;
@@ -51,11 +33,4 @@ hr {
     overflow: hidden;
     border-style: inset;
     border-width: .5px;
-}
-
-.wrapper {
-    padding-top: 10px;
-    padding-right: 150px;
-    padding-bottom: 10px;
-    padding-left: 150px;
 }

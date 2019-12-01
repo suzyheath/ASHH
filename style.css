@@ -91,7 +91,7 @@ li.topnav {
 body{margin: 0px;
 }
 
-/*Top bar nav but in black - Hannah 1.12.19*/
+/*Top bar nav but in black, wrapper div and logo div styles - Hannah 1.12.19*/
 ul.topnavblack {
   padding: 10px 0px 10px 0px;
   align-items: baseline;
@@ -119,5 +119,31 @@ ul.topnavblack:hover {
 .topnavblack a:hover {
   color: white;
   font-weight: lighter;
+}
+
+.wrapper {
+  padding-top: 10px;
+  padding-right: 150px;
+  padding-bottom: 10px;
+  padding-left: 150px;
+}
+
+
+.logo {
+  width: 200px;
+  height: auto;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
    /*end HT*/
