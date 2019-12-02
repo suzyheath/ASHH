@@ -39,10 +39,11 @@
 } */
 
 .screening-event-row {
-    overflow: auto;
     display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
     width: 100%;
-    height: 140px;
+    height: auto;
     padding-top: 0px;
     padding-right: 30px;
     padding-bottom: 0px;
@@ -51,17 +52,20 @@
     align-items: center;
 }
 .image {
-    display: inline-block;
+    /* display: inline-block; */
+    flex-wrap: wrap;
     width: 25%;
     filter: opacity(95%);
 }
 
 .title {
-    display: inline-block;
+    /* display: inline-block; */
+    flex-wrap: wrap;
     width: 45%;
 }
 .button {
-    display: inline-block;
+    /* display: inline-block; */
+    flex-wrap: wrap;
     width: 30%;
 }
 
@@ -117,4 +121,48 @@ hr {
     height: 120px;
     width: 120px;
     padding: 0;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .title {
+        display: block;
+        width: 100%;
+        }
+}
+
+@media screen and (max-width: 450px) {
+    .venueimage {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+/* Below is just fiddling */
+
+ul.topnavblack {
+    padding: 0px 0px 0px 0px;
+    align-items: baseline;
+    text-align: center;
+    justify-content: space-between;
+    background-color: white;
+  }
+
+li.topnavblack {
+    display: inline-block;
+    margin: 10px 6% 10px 6%;
+  }
+
+ul.topnavblack:hover {
+    background-color: lightgrey;
+    /* margin-inline-start: 30px;
+    margin-inline-end: 30px; */
+    /* The above margin inlines were making the items 'jump' when hovered over. S.H. */
+}
+
+.topnavblack a:hover {
+  color: white;
+  font-weight: lighter;
 }
