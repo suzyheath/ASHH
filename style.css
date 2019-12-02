@@ -84,8 +84,6 @@ li.topnav {
   padding: 10px 80px 10px 80px;
   }
 
-
-
 body{margin: 0px;
 }
 
@@ -129,9 +127,9 @@ ul.topnavblack:hover {
 
 .wrapper {
   padding-top: 10px;
-  padding-right: 150px;
+  padding-right: 15%;
   padding-bottom: 50px;
-  padding-left: 150px;
+  padding-left: 15%;
 }
 
 
