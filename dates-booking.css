@@ -123,7 +123,15 @@ hr {
     padding: 0;
 }
 
-
+.google-form {
+    display: flex;
+    align-items: center;
+    padding-top: 3%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+    
+}
 
 @media screen and (max-width: 750px) {
     .title {
