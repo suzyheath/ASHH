@@ -94,6 +94,7 @@ ul.topnavblack {
   padding: 10px 0px 10px 0px;
   align-items: baseline;
   text-align: center;
+  background-color: white;
 }
 
 .topnavblack a {
@@ -117,6 +118,14 @@ ul.topnavblack:hover {
   color: white;
   font-weight: lighter;
 }
+
+/* Makes top nav sticky */
+.topnavblack {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 
 .wrapper {
   padding-top: 10px;
