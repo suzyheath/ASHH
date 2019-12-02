@@ -9,9 +9,9 @@
 .main-dates-body {
     display: block;
     padding-top: 10px;
-    padding-right: 15%;
+    padding-right: 20%;
     padding-bottom: 120px;
-    padding-left: 15%;
+    padding-left: 18%;
     /* padding-top: 10px;
     padding-right: 180px;
     padding-bottom: 120px;
@@ -44,9 +44,9 @@
     overflow: auto;
     width: 100%;
     height: auto;
-    padding-top: 0px;
+    padding-top: 12px;
     padding-right: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 12px;
     padding-left: 30px;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +54,8 @@
 .image {
     /* display: inline-block; */
     flex-wrap: wrap;
-    width: 25%;
+    padding-left: 0;
+    width: 15%;
     filter: opacity(95%);
 }
 
@@ -62,11 +63,13 @@
     /* display: inline-block; */
     flex-wrap: wrap;
     width: 45%;
+    padding-left: 5px;
 }
 .button {
     /* display: inline-block; */
     flex-wrap: wrap;
     width: 30%;
+    padding-right: 5px;
 }
 
 h3 {
