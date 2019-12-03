@@ -8,9 +8,9 @@
 
 .main-dates-body {
     padding-top: 10px;
-    padding-right: 4vw;
+    padding-right: 5vw;
     padding-bottom: 50px;
-    padding-left: 4vw;
+    padding-left: 5vw;
   }
 
 .screening-event-row {
@@ -97,8 +97,8 @@ hr {
 }
 
 .venueimage {
-    height: 12vw;
-    width: 12vw;
+    height: 11vw;
+    width: 11vw;
     padding: 1vw;
 }
 
@@ -145,9 +145,6 @@ ul.topnavblack:hover {
 }
 
 .social-footer {
-    /* line-height: auto; */
-    /* margin: 1vw; */
-    /* width: 8em; */
     display: flex;
     padding-top: 60px;
     padding-bottom: 20px;
