@@ -130,6 +130,14 @@ ul.topnavblack {
     background-color: white;
   }
 
+ul.topnavblack-about {
+padding: 0px 0px 0px 0px;
+align-items: baseline;
+text-align: center;
+justify-content: space-between;
+background-color: transparent;
+}
+
 li.topnavblack {
     display: inline-block;
     margin: 10px 6% 10px 6%;
@@ -183,3 +191,4 @@ ul.topnavblack:hover {
     background: #125688;
     color: white;
 }
+
