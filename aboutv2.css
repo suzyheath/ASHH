@@ -6,13 +6,30 @@
     padding-right: 15%;
     padding-bottom: 20px;
     padding-left: 15%;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul.topnavblack-about {
+    padding: 0px 0px 0px 0px;
+    align-items: baseline;
+    text-align: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+ul.topnavblack-about:hover {
+    background-color: lightgrey;
+}
+
+.topnavblack-about a:hover {
+    color: 125688;
+    font-weight: lighter;
   }
 
-  p {
-      margin-bottom: 20px;
-  }
-
-  .mainaboutbody {
+.mainaboutbody {
     padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 10px;

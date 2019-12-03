@@ -120,8 +120,6 @@ hr {
     }
 }
 
-/* Below is just fiddling */
-
 ul.topnavblack {
     padding: 0px 0px 0px 0px;
     align-items: baseline;
@@ -129,14 +127,6 @@ ul.topnavblack {
     justify-content: space-between;
     background-color: white;
   }
-
-ul.topnavblack-about {
-padding: 0px 0px 0px 0px;
-align-items: baseline;
-text-align: center;
-justify-content: space-between;
-background-color: transparent;
-}
 
 li.topnavblack {
     display: inline-block;
