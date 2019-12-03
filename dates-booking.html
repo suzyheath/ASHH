@@ -1,48 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-  <title>View Dates and Book</title>
-
+<head profile="http://www.w3.org/2005/10/profile">
+  <link rel="icon" 
+        type="image/png" 
+        href="./imageresources/film_festival_logo_black.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dates-booking.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Dates and Booking | LGW Film Festival</title>
 </head>
 
-<body class="subpage">
-  <ul class="topnav">
-      <li class="topnav"><a href="./index.html">Home</a></li>
-      <li class="topnav"><a href="./about.html">About</a></li>
-      <li class="topnav"><a href="./past-highlights.html">Highlights</a></li>
-      <li class="topnav"><a href="./dates-booking.html">Tickets</a></li>
-  </ul>
-
-<h1><em>Find a screening</em></h1>
-
-
-  <div class="screening event">
+<body>
+<div class="wrapper">
+    <div class="logoblack"><a href="./index.html"><img src="film_festival copy - black.png"></a></div>
+   
     <hr>
-    <h3>O2 Academy Glasgow - Glasgow</h3>
-    <p>Friday 6th December 2019</p>
-    <span class="booking button"></span>
+    <ul class="topnavblack">
+      <li class="topnavblack"><a href="./index.html">Home</a></li>
+      <li class="topnavblack"><a href="./about.html">About</a></li>
+      <li class="topnavblack"><a href="./past-highlights.html">Highlights</a></li>
+      <li class="topnavblack"><a href="./dates-booking.html">Dates</a></li>
+    </ul>
+   
     <hr>
+    <div class="titlebox">
+    <h1>Dates and Tickets</h1>
   </div>
-  <div class="screening event">
-  <h3>Waterside Arts - Manchester</h3>
-    <p>Saturday 7th December 2019</p>
+
+  <div class="main-dates-body">
+  
+    <div class="screening-event-row">
+      <img class="venueimage" src="./imageresources/o2glasgow.jpeg">
+      <div class="title">
+        <h3>O2 Academy - Glasgow</h3>
+        <p class="date">Friday 6th December 2019</p>
+      </div>
+      <a href="./booking-form.html" class="booking-button">Book Now</a>
+    </div>
+  
+    <hr>
+    <div class="screening-event-row">
+      <img class="venueimage" src="./imageresources/watersidemanchester.jpeg">
+      <div class="title">
+        <h3>Waterside Arts - Manchester</h3>
+        <p class="date">Saturday 7th December 2019</p>
+      </div>
+      <a href="./booking-form.html" class="booking-button">Book Now</a>
+    </div>
+  
+    <hr>
+    <div class="screening-event-row">
+      <img class="venueimage" src="./imageresources/riodalston.jpeg">
+      <div class="title">
+        <h3>Rio Cinema - London Dalston</h3>
+        <p class="date">Friday 13th December 2019</p>
+      </div>
+      <a href="./booking-form.html" class="booking-button">Book Now</a>
+    </div>
+  
+    <hr>
+    <div class="screening-event-row">
+      <img class="venueimage" src="./imageresources/everymankx.jpeg">
+      <div class="title">
+        <h3>Everyman - London King's Cross</h3>
+        <p class="date">Saturday 14th December 2019</p>
+      </div>
+      <a href="./booking-form.html" class="booking-button">Book Now</a>
+    </div>
+  
+    <hr>
+    <div class="screening-event-row">
+        <img class="venueimage" src="./imageresources/cornexchangeexeter.jpeg">
+      <div class="title">
+        <h3>Corn Exchange - Exeter</h3>
+        <p class="date">Saturday 21st December 2019</p>
+      </div>
+          <a href="./booking-form.html" class="booking-button">Book Now</a>
+    </div>
+  
+    <div class="social-footer">
+      <a href="https://www.facebook.com/SkiingSnow-Boarding-185378444811931/" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/SurfingEngland" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/explore/tags/pow/" class="fa fa-instagram"></a>
+    </div>
   </div>
-  <hr>
-  <div class="screening event">Rio Cinema - London Dalston</div>
-  <hr>
-  <div class="screening event">Everyman Hampstead - London</div> 
-  <hr>
-  <div class="screening event">Corn Exchange - Exeter</div>
-  <hr>
-
-
-
+</div>
 
 </body>
 

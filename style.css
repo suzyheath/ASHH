@@ -53,7 +53,6 @@ p.subtext {
 
 .logo {
 width: 30%;
-
 }
 
 .logo_box {
@@ -67,12 +66,12 @@ width: 30%;
   background-repeat: no-repeat;
   background-position: center top;
 }
-/* Creates top bar navigation, inline styling. To be improved! SH */
+
+/* Creates top bar navigation, white text */
 ul.topnav {
   padding: 10px 0px 10px 0px;
   align-items: baseline;
   text-align: center;
-
 }
 
 .topnav a {
@@ -81,12 +80,9 @@ ul.topnav {
 }
 
 li.topnav {
-     display: inline;
-     padding: 10px 80px 10px 80px;
-   }
-/* End of SH edit 18.11.19 */
-
-
+  display: inline;
+  padding: 10px 80px 10px 80px;
+  }
 
 body{margin: 0px;
 }
@@ -96,7 +92,7 @@ ul.topnavblack {
   padding: 10px 0px 10px 0px;
   align-items: baseline;
   text-align: center;
-
+  background-color: white;
 }
 
 .topnavblack a {
@@ -112,8 +108,9 @@ li.topnavblack {
 
 ul.topnavblack:hover {
     background-color: lightgrey;
-    margin-inline-start: 30px;
-    margin-inline-end: 30px;
+    /* margin-inline-start: 30px;
+    margin-inline-end: 30px; */
+    /* The above margin inlines were making the items 'jump' when hovered over. SH */
   }
 
 .topnavblack a:hover {
@@ -121,11 +118,19 @@ ul.topnavblack:hover {
   font-weight: lighter;
 }
 
+/* Makes top nav sticky */
+.topnavblack {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
 .wrapper {
   padding-top: 10px;
-  padding-right: 150px;
+  padding-right: 15%;
   padding-bottom: 10px;
-  padding-left: 150px;
+  padding-left: 15%;
 }
 
 
@@ -146,6 +151,7 @@ ul.topnavblack:hover {
   padding-bottom: 20px;
   padding-left: 20px;
 }
+<<<<<<< HEAD
 
 .banffyoutube {
   display: flex;
@@ -156,3 +162,47 @@ ul.topnavblack:hover {
 
 
    /*end HT*/
+=======
+   /*end HT*/
+
+
+  .social-footer {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.fa {
+  padding: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 40px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  justify-content: space-around;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+>>>>>>> ce06deaf055c54981e4bf706965b34658a424d8a

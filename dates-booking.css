@@ -1,0 +1,184 @@
+.titlebox {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+
+.main-dates-body {
+    padding-top: 10px;
+    padding-right: 5vw;
+    padding-bottom: 50px;
+    padding-left: 5vw;
+  }
+
+.screening-event-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+}
+
+.image {
+    display: inline-block;
+    flex-wrap: wrap;
+    padding-left: 0;
+    width: 15%;
+    filter: opacity(95%);
+}
+
+.title {
+    display: block;
+    flex-wrap: wrap;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.8vw;
+}
+
+.button {
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 30%;
+    padding-right: 5px;
+}
+
+h3 {
+    padding-bottom: 0%;
+    display: block;
+}
+
+.booking-button {
+    float: right;
+    padding: 10px;
+    margin: 1vw;
+    background: #4e9396;
+    border: 0;
+    display: inline-block;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.date {
+    line-height: 1.1;
+    padding-right: 15px;
+}
+
+.booking-button:hover {
+    background: #81b0b3;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-inline-start: 30px;
+    margin-inline-end: -30px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: .5px;
+}
+
+.venueimage {
+    height: 11vw;
+    width: 11vw;
+    padding: 1vw;
+}
+
+.google-form {
+    display: flex;
+    align-items: center;
+    padding-top: 3%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+    
+}
+
+@media screen and (max-width: 740px) {
+    .venueimage {
+        width: 90px;
+        height: 90px;
+        padding: 1vw;
+    }
+}
+
+ul.topnavblack {
+    padding: 0px 0px 0px 0px;
+    align-items: baseline;
+    text-align: center;
+    justify-content: space-between;
+    background-color: white;
+  }
+
+li.topnavblack {
+    display: inline-block;
+    margin: 10px 6% 10px 6%;
+  }
+
+ul.topnavblack:hover {
+    background-color: lightgrey;
+}
+
+.topnavblack a:hover {
+  color: white;
+  font-weight: lighter;
+}
+
+.social-footer {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.fa {
+    padding: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    justify-content: space-around;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+}
+
