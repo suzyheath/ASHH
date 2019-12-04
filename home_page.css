@@ -21,6 +21,7 @@
 
 .logo {
 width: 40%;
+display: flex;
 }
 
 .logo_box {
@@ -54,5 +55,4 @@ width: 40%;
     padding-bottom: 20px;
     text-align: center;
     justify-content: center;
-    z-index: 2;
 }
