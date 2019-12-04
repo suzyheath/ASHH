@@ -21,46 +21,6 @@ p.subtext {
 
 }
 
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  z-index: -2;
-}
-
-.box {
-  position: fixed;
-  background: rgba(0, 0, 0, 0.5);
-  right: 0;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-/* Add some content at the bottom of the video/page */
-.content {
-  bottom: 0;
-
-  color: #f1f1f1;
-  width: 100%;
-  padding-top: 60px;
-  padding-left: 20px;
-}
-
-.logo {
-width: 30%;
-}
-
-.logo_box {
-  display: flex;
-  justify-content: center;
-  padding-top: 70px;
-}
 
 .aboutbackgroundimage {
   background-image: url("https://images.unsplash.com/photo-1437502920657-db9708bfe2ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80");
