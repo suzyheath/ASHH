@@ -151,18 +151,18 @@ ul.topnavblack:hover {
   padding-bottom: 20px;
   padding-left: 20px;
 }
-<<<<<<< HEAD
 
 .banffyoutube {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 
 
 
    /*end HT*/
-=======
    /*end HT*/
 
 
@@ -205,4 +205,25 @@ ul.topnavblack:hover {
   background: #125688;
   color: white;
 }
->>>>>>> ce06deaf055c54981e4bf706965b34658a424d8a
+
+.values{
+width: 300px;
+height: 200px;
+padding: 0 20px;
+transition: .5s ease;
+opacity: 0.3;
+}
+
+.values:hover{
+  transition: .5s ease;
+  opacity: 1;
+  rotate:  10deg);
+}
+
+
+.aboutvalues{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+    flex-direction: row;
+}
