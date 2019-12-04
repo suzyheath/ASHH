@@ -159,12 +159,7 @@ ul.topnavblack:hover {
   padding-bottom: 20px;
 }
 
-
-
-
    /*end HT*/
-   /*end HT*/
-
 
   .social-footer {
   display: flex;
@@ -217,7 +212,7 @@ opacity: 0.3;
 .values:hover{
   transition: .5s ease;
   opacity: 1;
-  rotate:  10deg);
+  rotate:  10deg;
 }
 
 
